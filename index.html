@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>겨울바다</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Permanent+Marker|Shadows+Into+Light|Source+Code+Pro|Stylish|Sunflower:300" rel="stylesheet">
+  <style>
+      h1 {
+        font-family: 'Permanent Marker', cursive;
+      }
+      h2 {
+        font-family: 'Stylish', sans-serif;
+      }
+      p, button {
+        font-family: 'Stylish', sans-serif;
+        font-size:x-large
+      }
+      nav {
+        font-family: 'Stylish', sans-serif;
+      }
+      body {
+          margin-bottom: 40px;
+      }
+      .dropdown{
+        font-family: 'Stylish', sans-serif;
+      }
+  </style>
+</head>
+<!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+    <nav class="navbar navbar-expand bg-dark navbar-dark fixed-top justify-content-center">
+        <a class="navbar-brand" href="https://drive.google.com/open?id=1xfrDdeVQtx7o_jO8ZsHBF5I9B3Pdq6Rh&usp=sharing" target="_blank">전체지도</a>
+        <!-- 일정 -->
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#departure">출발</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">겨울바다</a>
+                <div class="dropdown-menu justify-content-center">
+                    <a class="dropdown-item" href="#wintersea">커피 한 잔</a>
+                    <a class="dropdown-item" href="#snack">간식</a>
+                    <a class="dropdown-item" href="#sea">바닷가</a>
+                    <a class="dropdown-item" href="#place">가볼만한곳</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#dinner">저녁식사</a></li>
+            <li class="nav-item"><a class="nav-link" href="#landing">도착</a></li>
+        </ul>
+    </nav>
+    
+    <br><br><br>
+    <div class="container-fluid">
+        <h1 style="text-align: center;">Trip to <br>Winter Sea</h1>
+    </div>
+    
+    <!-- Section 1 출발 -->
+    <div id="departure">
+    <br>
+    <br>
+    <br>
+    <br>
+        <div class="container-fluid">
+            <h2><strong style="padding-left: 20px">출발</strong></h2>
+            <!-- 출발 티켓 -->
+            <p>청량리 13:22 → 강릉 15:02</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#ticket1">티켓</button> 
+            <div id="ticket1" class="collapse">
+                <img src="https://firebasestorage.googleapis.com/v0/b/fastcampus-dreamy227.appspot.com/o/ticket1.jpg?alt=media&token=88d015a4-aac0-4e6e-b434-25e523c7809c" class="rounded" width="80%"><br>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#ticket1">접기</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="progress" style="margin: 10px;">
+            <div class="progress-bar bg-info" style="width:15%"></div>
+        </div>
+    </div>
+    
+    <!-- Section 2 겨울바다 -->
+    <div id="wintersea">
+    <br>
+    <br>
+    <br>
+    <br>
+        
+        <div class="container-fluid">
+            <h2><strong style="padding-left: 20px">겨울바다</strong></h2>
+            <br>
+            <br>
+            <p>커피 한 잔</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cafe1">카페 롱블랙</button> 
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cafe2">카페 툇마루</button> 
+            <!-- 롱블랙 -->
+            <div id="cafe1" class="collapse">
+                <p>강릉역 → 롱블랙 (11분 거리)</p>
+                <img src="https://scontent-amt2-1.cdninstagram.com/vp/376ea55def6da3cfa9f9a05040eb1554/5CB7915D/t51.2885-15/sh0.08/e35/s640x640/45894210_1932046007103859_7309084112398165847_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        블로그 리뷰
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/mcccandle/221431289894" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/dudqlsalwjd0119/221421856257" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?edid=1898331254&sText=6rCV66aJ7JetIOqwleumieyEoA%3D%3D&elng=caf37d8d7248548558b64c7f512344d1&sdid=1657248154&eslng=379901e20dcffb8861bc381d534f4204&dtPathType=2&menu=route&lng=1c82b805fa421fdba6706bf3bd905e68&mapMode=0&elat=b18a597f860b5ca7a0304ce0a11afa88&pathType=0&eText=66Gx67iU656Z&slng=8683e0bc21323d88b6e4f759ca986045&eType=SITE_1&slat=f4b6eeb0d90d530067a818ca9ec6877b&sType=SITE&eslat=3f1d0cce1f34277a47dd897cf2495987&lat=22076d38560e2dcd68f39edf76cb90f0&dlevel=10&enc=b64" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cafe1">접기</button>
+                </div>  
+            </div>
+            <!-- 툇마루 -->
+            <div id="cafe2" class="collapse">
+                <p>강릉역 → 툇마루 (10분 거리)</p>
+                <img src="https://t1.daumcdn.net/cfile/tistory/99F7D04C5AE2CE2E2B" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        블로그 리뷰
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/blackbearlog/221414314383" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/god9470/221326156585" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?sText=6rCV66aJ7JetIOqwleumieyEoA%3D%3D&dtPathType=2&lng=b6671cbc9ae0868cc780ad5ac6009081&mapMode=0&eText=7Lm07Y6YIO2Ih%2BuniOujqA%3D%3D&eType=SITE&sType=SITE_1&lat=c985f00ab182ec5f0732562730bdcd6c&dlevel=10&enc=b64&edid=998885728&elng=bb33d6d8fc2483687c1b804f59279fb1&sdid=1657248154&eslng=379901e20dcffb8861bc381d534f4204&menu=route&elat=f8e0f9cc18023bc60f11024a67fde9db&pathType=0&slng=8683e0bc21323d88b6e4f759ca986045&slat=f4b6eeb0d90d530067a818ca9ec6877b&eslat=3f1d0cce1f34277a47dd897cf2495987" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cafe2">접기</button>
+                </div>  
+            </div>
+
+            
+        </div>
+        <br>
+
+        <div class="container-fluid" id="snack">
+            <br>
+            <br>
+            <p>간식</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#snack1">순두부 젤라또</button>
+            <!-- 순두부 젤라또 -->
+            <div id="snack1" class="collapse">
+                <p>툇마루 → 순두부젤라또 (2분 거리)</p>
+                <img src="https://img.siksinhot.com/place/1533891550194599.jpg" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+							블로그 리뷰  
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/delmont24/221299449186" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/isaac024/221204506083" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?sText=7Lm07Y6YIO2Ih%2BuniOujqA%3D%3D&dtPathType=2&lng=e081a553b945bf8d80877b9a430a5f63&mapMode=0&eText=7Iic65GQ67aA7KCk652865iQ&eType=SITE&sType=SITE_1&lat=f936a25ad66cc1f90b79c2a539b82498&dlevel=13&enc=b64&edid=674248763&elng=00e1176c1bc1b851a163ac3431943fdc&sdid=998885728&menu=route&elat=b85004be828b94e4bcff309070ca077a&pathType=0&slng=bb33d6d8fc2483687c1b804f59279fb1&slat=f8e0f9cc18023bc60f11024a67fde9db" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#snack1">접기</button>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container-fluid" id="sea">
+            <br>
+            <br>
+            <p>바닷가</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#sea1">강문해변 포토존</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#sea2">도깨비 방파제</button>
+            <!-- 강문해변 -->
+            <div id="sea1" class="collapse">
+                <p>툇마루 → 강문해변 (3분 거리)</p>
+                <img src="https://scontent-ort2-1.cdninstagram.com/vp/10d47e6b5f179ce2d1eb6cee8358f858/5C77D071/t51.2885-15/e35/s480x480/32915642_2137289229887815_7446522256655646720_n.jpg" style="align-content: center; width:90%; margin-bottom: 4px; margin-top: 4px;" class="rounded">
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        블로그 리뷰
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/yukino3333/221423804777" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/namnaraum/220903500843" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="http://naver.me/Guef9d7z" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#sea1">접기</button>
+                </div>
+            </div>
+            <!-- 도깨비방파제 -->
+            <div id="sea2" class="collapse">
+                <p>툇마루 → 도깨비방파제 (25분 거리)</p>
+                <img src="https://post-phinf.pstatic.net/MjAxNzAzMTBfMTA1/MDAxNDg5MTA3NjE1NDU3.7T9F9PB3wuclQuRm484LMl7SX-ugTog-MWyEYfMcbC0g.1M46usOGJxzdtAYI71_0qANVzxvoBuJw5fkTEvQl9Swg.JPEG/mug_obj_201703101000163758.jpg?type=w1080" style="align-content: center; width:90%; margin-top: 4px;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+							블로그 리뷰  
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/el512/221218975843" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/hoppangcat/221132520340" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="http://naver.me/FwVgBbrV" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#sea2">접기</button>
+                    <a href="https://m.blog.naver.com/PostView.nhn?blogId=is2yuri&logNo=221171609805&proxyReferer=https%3A%2F%2Fwww.google.com%2F" target="_blank" class="btn btn-warning" role="button">근처 카페</a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container-fluid" id="place">
+            <br>
+            <br>
+            <p>가볼만한곳</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#place1">강릉커피거리</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#place2">오월 커피</button>
+            <!-- 강릉커피거리 -->
+            <div id="place1" class="collapse">
+                <p>강문해변 → 강릉커피거리 (8분 거리)</p>
+                <img src="https://t1.daumcdn.net/cfile/tistory/230C9749558CAE4712" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        블로그 리뷰
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="http://simsim.tistory.com/285" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/whiteyumi11/221406781205" target="_blank">카페 키크러스</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/dbalsl2020/221137670105" target="_blank">카페 산토리니</a>
+                    </div>
+                    <a href="https://map.naver.com/?edid=20947876&sText=6rCV66y47ZW067OA&elng=e716fb18336b48a971999a15dfbb5799&sdid=13491183&eslng=854e98c1b4f9772056f26eda079ffea4&dtPathType=2&menu=route&lng=3471254026ae55d663f2a8142d4c8b20&mapMode=0&elat=617b8cb34aacc23822d4b094f9832e6a&pathType=0&eText=6rCV66aJ7Luk7ZS86rGw66as&slng=f8d28a1945a62cd05a7cc2b9d2df7437&eType=SITE&slat=6d271ade82f6ec84e57909836a4487d3&sType=SITE&eslat=8637f677aa870f1634e126125b5a1a19&lat=63508e1a614e7201193f2433cd16c4ee&dlevel=10&enc=b64" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#place1">접기</button>
+                </div>
+            </div>
+            <!-- 오월 커피 -->
+            <div id="place2" class="collapse">
+                <p>강문해변 → 오월 커피 (16분 거리)</p>
+                <img src="https://scontent-iad3-1.cdninstagram.com/vp/248ca3e126617a42302211547ed92ecf/5CFFE045/t51.2885-15/e35/49596460_293317024706088_7582758248389719006_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                            블로그 리뷰  
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/fdjinny/221435020438" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/carin22/221439458751" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?sText=6rCV66y47ZW067OA&dtPathType=2&lng=7e615d06570ee24d469922d971d5d5b0&mapMode=0&eText=7Jik7JuU7Luk7ZS8&eType=SITE&sType=SITE&lat=d45f5889c65eed62365d47aa01a616ac&dlevel=9&enc=b64&edid=1426647455&elng=b3a8ea117982c74d786e0518fe514972&sdid=13491183&eslng=854e98c1b4f9772056f26eda079ffea4&menu=route&eelat=b572452ca094eb14a68f20fcff050d55&elat=1d258551082a4a4e4457018e61a88883&pathType=0&slng=f8d28a1945a62cd05a7cc2b9d2df7437&eelng=b89c7bb5ede74f897cf9a27b03e13f01&slat=6d271ade82f6ec84e57909836a4487d3&eslat=8637f677aa870f1634e126125b5a1a19" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#place2">접기</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="progress" style="margin: 10px;">
+        <div class="progress-bar bg-info" style="width:65%"></div>
+    </div>
+    
+    <!-- Section 3 저녁 -->
+    <div id="dinner">
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <div class="container-fluid">
+            <h2><strong style="padding-left: 20px;">저녁식사</strong></h2>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dinner1">콩새야</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dinner2">금송아지</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dinner3">형제 장칼국수</button>
+            <!-- 콩새야 -->
+            <div id="dinner1" class="collapse">
+                <p>강문해변 → 콩새야 (15분 거리)</p>
+                <img src="https://scontent-iad3-1.cdninstagram.com/vp/f827ab97e54ac0ff452c4f17808eaa9b/5CAA84DF/t51.2885-15/e35/43198058_2137985562960312_778066884691065115_n.jpg" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        블로그 리뷰
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/godnjs8323/221441854587" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/skfkrneh/221406622113" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?edid=1670037069&sText=6rCV66y47ZW067OA&elng=d84a06ba89ade7d5755d58de619c19e6&sdid=13491183&eslng=854e98c1b4f9772056f26eda079ffea4&dtPathType=2&menu=route&lng=dfdfed054650182e7d0ca2775ec97f18&mapMode=0&elat=7b4a91ad41baba658686a7632a168093&pathType=0&eText=7L2p7IOI7JW8&slng=f8d28a1945a62cd05a7cc2b9d2df7437&eType=SITE&slat=6d271ade82f6ec84e57909836a4487d3&sType=SITE&eslat=8637f677aa870f1634e126125b5a1a19&lat=48cb49dbe426e15436395d69c31a5502&dlevel=10&enc=b64" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dinner1">접기</button>
+                </div>
+            </div>
+            <!-- 금송아지 -->
+            <div id="dinner2" class="collapse">
+                <p>강문해변 → 금송아지 (15분 거리)</p>
+                <img src="https://scontent-frx5-1.cdninstagram.com/vp/d1b24c1d7914d493beeae0d2683f89ba/5CA248D6/t51.2885-15/e35/47582097_409610232912954_2561410681364264683_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&se=7&ig_cache_key=MTk0MDczMTM3MzQyNzIyMDY2NQ%3D%3D.2" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        블로그 리뷰
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/iilove93/221362251788" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/songgod469/221378794298" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?sText=6rCV66y47ZW067OA&dtPathType=2&lng=5dbda4ccd73de0e683217f15c1fa60f1&mapMode=0&eText=6riI7Iah7JWE7KeA&eType=SITE&sType=SITE_1&lat=8a8bbe687b57ea6a3fadcc48eb79a2fc&dlevel=10&enc=b64&edid=454109963&elng=26abe07f204a96ba04f99c77d0d81bc9&sdid=13491183&eslng=854e98c1b4f9772056f26eda079ffea4&menu=route&elat=38e9c3772c7573a948c3ef1b0c00e5e4&pathType=0&slng=f8d28a1945a62cd05a7cc2b9d2df7437&slat=6d271ade82f6ec84e57909836a4487d3&eslat=8637f677aa870f1634e126125b5a1a19" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dinner2">접기</button>
+                </div>
+            </div>
+            <!-- 형제 장칼국수 -->
+            <div id="dinner3" class="collapse">
+                <p>강문해변 → 형제 장칼국수 (15분 거리)</p>
+                <img src="https://pbs.twimg.com/media/Dk2MleaV4AAgBYt.jpg" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                            블로그 리뷰  
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/parisming/221442233355" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/minhae9191/221431681152" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?sText=6rCV66y47ZW067OA&dtPathType=2&lng=8f9e6b12a9a6a24d3e6180c8b6364292&mapMode=0&eText=7ZiV7KCc7Lm86rWt7IiY&eType=SITE&sType=SITE&lat=d65236f19eee7fb5228808129a908365&dlevel=10&enc=b64&edid=15384057&elng=101b2e80a14b5d810ad4451bbcd7ba22&sdid=13491183&eslng=854e98c1b4f9772056f26eda079ffea4&menu=route&elat=752d44b3a086300635fd7ef1ccc6b5f2&pathType=0&slng=f8d28a1945a62cd05a7cc2b9d2df7437&slat=6d271ade82f6ec84e57909836a4487d3&eslat=8637f677aa870f1634e126125b5a1a19" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dinner3">접기</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="progress" style="margin: 10px;">
+        <div class="progress-bar bg-info" style="width:75%"></div>
+    </div>
+
+
+    <!-- Section 4 쉼 -->
+    <div id="rest">
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <div class="container.fluid">
+            <h2><strong style="padding-left: 20px;">쉼</strong></h2>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#rest1">버드나무 브루어리</button> 
+        <!-- 버드나무 브루어리 -->
+            <div id="rest1" class="collapse">
+                <p>버드나무 브루어리 → 강릉역 (분 거리)</p>
+                <img src="https://scontent-lga3-1.cdninstagram.com/vp/f3162793fa78cb631b1427f330a9b8b9/5C97249E/t51.2885-15/sh0.08/e35/s640x640/46661575_374599026445136_1187614716239052918_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com" style="align-content: center; width:90%;" class="rounded">
+                <br><br>
+                <!--블로그 리뷰 & 지도-->
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                            블로그 리뷰  
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://m.blog.naver.com/firehouse79/221412532880" target="_blank">리뷰 1</a>
+                        <a class="dropdown-item" href="https://m.blog.naver.com/yen_ny/221408367556" target="_blank">리뷰 2</a>
+                    </div>
+                    <a href="https://map.naver.com/?sText=67KE65Oc64KY66y067iM66Oo7Ja066as&dtPathType=2&lng=d0bf7c595f15f5861c73ce417b62f7a4&mapMode=0&eText=6rCV66aJ7JetIOqwleumieyEoA%3D%3D&eType=SITE_1&sType=SITE&lat=b86f9d4c54bda4a522d1788fe0cbe8a7&dlevel=10&enc=b64&edid=1657248154&elng=8683e0bc21323d88b6e4f759ca986045&sdid=37090227&eslng=2eedf4c9dbdbdd5154bab3c72150f6f0&menu=route&eelat=3f1d0cce1f34277a47dd897cf2495987&elat=f4b6eeb0d90d530067a818ca9ec6877b&pathType=0&slng=74576224f8670ff2cf4f856e4f1556ba&eelng=379901e20dcffb8861bc381d534f4204&slat=9eac510456dac190b53289ede0f1596b&eslat=867d77ab460fa10226a326905c3dea40" target="_blank">
+                        <button type="button" class="btn btn-info">
+                            지도 보기
+                        </button>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#rest1">접기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="progress" style="margin: 10px;">
+        <div class="progress-bar bg-info" style="width:85%"></div>
+    </div>
+
+    <!-- Section 4 도착 -->
+    <div id="landing">
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <div class="container-fluid">
+            <h2><strong style="padding-left: 20px">도착</strong></h2>
+        <!-- 도착 티켓 -->
+        <p>강릉 22:30 → 청량리 00:02</p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#ticket2">티켓</button> 
+            <div id="ticket2" class="collapse">
+                <img src="https://firebasestorage.googleapis.com/v0/b/fastcampus-dreamy227.appspot.com/o/ticket2.jpg?alt=media&token=d2b6af44-dbdd-450c-bb7a-fd6f57300891" class="rounded" width="80%"><br>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#ticket2">접기</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="progress" style="margin: 10px;">
+        <div class="progress-bar bg-info" style="width:100%"></div>
+    </div>
+
+</body>
+</html>
